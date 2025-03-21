@@ -1,5 +1,293 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* Header genel stiller */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* Address kısmı */
+.contact-info {
+  font-style: normal;
+}
+
+.contact-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+/* Section 1 */
+.hero-section {
+  background-color: #2e2f42;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #404bbf;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #3039a0;
+}
+/* Section 2 */
+.section-features {
+  background-color: #ffffff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.header-2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+}
+
+.header-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.medium-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Section 3 - Our Team */
+.our-team {
+  background-color: #f4f4fd;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.header-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Section 4 (Portfolio) */
+.portfolio-section {
+  padding: 60px 0;
+}
+
+/* Başlık */
+.portfolio-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 40px;
+}
+
+/* Liste */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Liste elemanları */
+.portfolio-item {
+  width: 360px;
+  text-align: center;
+}
+
+/* Başlık */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 10px;
+}
+
+/* Açıklama Metni */
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer genel stilleri */
+.footer {
+  background-color: #2e2f42;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer'daki logo */
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -7,78 +295,20 @@
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-}
-.title {
-  background-color: #2e2f42;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
-}
-.header.2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 2%;
-}
-.header.3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  letter-spacing: 2%;
-}
-.body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455
-  background-color: #ffffff;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-.small.text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 2%;
-}
-.medium.text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: medium;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-.button {
-  cursor: pointer;
-  background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: medium;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-.link {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  text-decoration: underline;
-}
-.our-team {
-  background-color: #f4f4fd;
-}.footer {
-  background-color: #2e2f42;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-.footer.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;   
+/* Footer'daki <span> etiketi */
+.footer-span {
+  color: #2e2f42;
+}
+
+/* Footer açıklama metni */
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 400px;
+  margin: 0 auto;
 }
