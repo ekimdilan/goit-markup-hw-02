@@ -1,3 +1,62 @@
-body{
-    background-color: : #f0f0f0;
+.title {
+  background-color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+.header.2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+.header.3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.small.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2%;
+}
+.medium.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+}
+.section.4 {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
 }
