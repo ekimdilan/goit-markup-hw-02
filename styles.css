@@ -1,3 +1,13 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
 .title {
   background-color: #2e2f42;
   font-family: 'Roboto', sans-serif;
@@ -20,6 +30,8 @@
 }
 .body {
   font-family: 'Roboto', sans-serif;
+  color: #434455
+  background-color: #ffffff;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -56,7 +68,17 @@
 }
 .our-team {
   background-color: #f4f4fd;
-}
-.footer {
+}.footer {
   background-color: #2e2f42;
+}
+
+.footer.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;   
 }
