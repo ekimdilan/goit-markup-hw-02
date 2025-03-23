@@ -82,27 +82,10 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;
+ background-color: #404BBF;
 }
 /* Section 2 */
-.section-features {
-  background-color: #ffffff;
-  padding: 50px 0;
-  text-align: center;
-}
-
-.header-2 {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 40px;
-}
-
-.header-3 {
+.our-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
