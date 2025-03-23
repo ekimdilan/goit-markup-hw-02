@@ -4,15 +4,8 @@ body {
   background-color: #ffffff;
 }
 /* Header genel stiller */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
 .logo {
-  Font family:'Raleway', sans-serif;
+  Font-family:'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   font-size: 18px;
@@ -70,13 +63,13 @@ body {
 }
 
 .hero-button {
-  background-color: #4D5AE5
+  color: #ffffff;
+  background-color: #4D5AE5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
 }
 
