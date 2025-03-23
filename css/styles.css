@@ -12,38 +12,26 @@ body {
 }
 
 .logo {
-  font-size: 24px;
+  Font family:'Raleway', sans-serif;
+  font-size: 18px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
-  text-decoration: none;
-  color: #000;
 }
 
 .logo-span {
   color: #2e2f42;
 }
 
-.nav-list {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-link {
+.nav-link a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover,
@@ -56,61 +44,45 @@ body {
   font-style: normal;
 }
 
-.contact-list {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.contact-link {
+.contact-link a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
+
 /* Section 1 */
 .hero-section {
   background-color: #2e2f42;
-  padding: 100px 0;
-  text-align: center;
 }
 
 .hero-title {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 600px;
-  margin: 0 auto 40px;
 }
 
 .hero-button {
+  background-color: #4D5AE5
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
-  border: none;
-  padding: 16px 32px;
-  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #3039a0;
+  background-color: #404BBF;
 }
 /* Section 2 */
 .section-features {
@@ -130,36 +102,12 @@ body {
   margin-bottom: 40px;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.feature-item {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
-
-.feature-item:hover {
-  transform: scale(1.05);
-}
-
 .header-3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 15px;
-  margin-bottom: 8px;
 }
 
 .medium-text {
@@ -172,56 +120,26 @@ ul {
 /* Section 3 - Our Team */
 .our-team {
   background-color: #f4f4fd;
-  padding: 50px 0;
-  text-align: center;
 }
 
 .section-title {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 40px;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.team-member {
+.team-list {
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
 
-.team-member:hover {
-  transform: scale(1.05);
-}
-
-.team-member img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.header-3 {
+.team-member{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 15px;
-  margin-bottom: 8px;
 }
 
 .team-role {
@@ -232,10 +150,6 @@ ul {
 }
 
 /* Section 4 (Portfolio) */
-.portfolio-section {
-  padding: 60px 0;
-}
-
 /* Başlık */
 .portfolio-header {
   font-size: 36px;
@@ -244,21 +158,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 40px;
-}
-
-/* Liste */
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-/* Liste elemanları */
-.portfolio-item {
-  width: 360px;
-  text-align: center;
 }
 
 /* Başlık */
@@ -268,7 +167,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 10px;
 }
 
 /* Açıklama Metni */
@@ -281,8 +179,6 @@ ul {
 /* Footer genel stilleri */
 .footer {
   background-color: #2e2f42;
-  padding: 20px;
-  text-align: center;
 }
 
 /* Footer'daki logo */
@@ -294,9 +190,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 10px;
 }
 
 /* Footer'daki <span> etiketi */
@@ -309,6 +202,4 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 400px;
-  margin: 0 auto;
 }
