@@ -160,7 +160,7 @@ body {
 }
 
 /* Footer'daki logo */
-.footer-logo {
+.footer .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -171,7 +171,7 @@ body {
 }
 
 /* Footer'daki <span> etiketi */
-.footer-span {
+.footer .logo-span {
   color: #2e2f42;
 }
 
