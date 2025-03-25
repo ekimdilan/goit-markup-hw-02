@@ -170,8 +170,8 @@ body {
 }
 
 /* Footer'daki <span> etiketi */
-.footer .span {
-  color: #2e2f42;
+.footer .logo-span {
+  color: #f4f4fd;
 }
 
 /* Footer açıklama metni */
